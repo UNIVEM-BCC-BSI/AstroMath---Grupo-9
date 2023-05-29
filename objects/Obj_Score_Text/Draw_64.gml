@@ -1,10 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 draw_set_font(Font_Score);
-draw_set_color(c_green);
+draw_set_color(c_yellow);
 
 
-draw_text(850, 525, score);
+draw_text(850, 445, "PONTUAÇÃO");
 
 
 draw_set_font(-1);

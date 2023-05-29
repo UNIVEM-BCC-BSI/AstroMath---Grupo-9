@@ -6,7 +6,6 @@ draw_set_font(Font_Text_Story);
 // Desenhando o text box
 draw_sprite(Spr_TextBox, 0, x,y);
 
-
 draw_set_color(c_yellow);
 
 if(charcount < string_length(mytext[page])){

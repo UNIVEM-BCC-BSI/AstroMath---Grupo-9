@@ -4,8 +4,6 @@
 if (index < string_length(mytext[0])){
 	index += vel_text;
 }
-
-
 if keyboard_check_pressed(vk_space) {
 	page += 1
 	charcount = 0;

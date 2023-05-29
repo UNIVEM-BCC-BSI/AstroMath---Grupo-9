@@ -1,3 +1,3 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-// Evento "Alarm 0
+instance_create_layer(1200, 1500,"Tiro", Obj_Tiro);
