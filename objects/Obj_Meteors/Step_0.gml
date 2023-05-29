@@ -4,7 +4,7 @@
 /// Objeto Aumentar
 
 // Defina a velocidade de aumento
-speed = 0.005;
+speed = 0.003;
 
 // Defina o tamanho máximo do objeto
 tamanhoMaximo = 3.5;
@@ -22,4 +22,9 @@ else{
 		}
 		instance_destroy();
 	}
+}
+// Criando um meteoro a cada 3seg
+tempo_corrido += delta_time
+if tempo_corrido >= tempo_inicial{
+	instance_create_depth(x, y, 0, Obj_Meteors);
 }

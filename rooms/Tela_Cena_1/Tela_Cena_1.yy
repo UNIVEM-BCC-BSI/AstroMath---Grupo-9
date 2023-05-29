@@ -1,14 +1,14 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Tela_Scence_1",
+  "name": "Tela_Cena_1",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_62506B0C","path":"rooms/Tela_Scence_1/Tela_Scence_1.yy",},
-    {"name":"inst_51B3C270","path":"rooms/Tela_Scence_1/Tela_Scence_1.yy",},
+    {"name":"inst_62506B0C","path":"rooms/Tela_Cena_1/Tela_Cena_1.yy",},
+    {"name":"inst_51B3C270","path":"rooms/Tela_Cena_1/Tela_Cena_1.yy",},
   ],
   "isDnd": false,
   "layers": [

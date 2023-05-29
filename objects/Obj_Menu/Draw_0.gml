@@ -8,7 +8,7 @@ var y1 = 1080 / 2;
 
 
 draw_set_color(c_white);
-draw_text(x1, y1 - 200, "AstroMath!");
+//draw_text(x1, y1 - 200, "AstroMath!");
 
 
 
