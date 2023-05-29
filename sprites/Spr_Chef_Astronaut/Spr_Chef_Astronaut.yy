@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Spr_TextBox",
-  "bbox_bottom": 249,
-  "bbox_left": 0,
-  "bbox_right": 1919,
+  "name": "Spr_Chef_Astronaut",
+  "bbox_bottom": 511,
+  "bbox_left": 1,
+  "bbox_right": 740,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4f35ade-4ffd-4de1-8b2c-bcb42f6e647f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1e8e27d2-2027-49d2-a395-ff3508a25869",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 250,
+  "height": 512,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fbceefe7-ce77-4a95-a446-6d0e748ca590","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8fb7ef5e-878a-461c-be6c-44c931706ad4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Spr_TextBox",
+    "name": "Spr_Chef_Astronaut",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c4f35ade-4ffd-4de1-8b2c-bcb42f6e647f","path":"sprites/Spr_TextBox/Spr_TextBox.yy",},},},"Disabled":false,"id":"ed5c11ce-4af3-4158-b073-fd2858a26d8b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1e8e27d2-2027-49d2-a395-ff3508a25869","path":"sprites/Spr_Chef_Astronaut/Spr_Chef_Astronaut.yy",},},},"Disabled":false,"id":"84ab3618-b477-4724-8ee2-ac4d3bac4033","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1920,
+  "width": 741,
 }

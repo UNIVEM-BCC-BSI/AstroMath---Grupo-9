@@ -1,0 +1,1 @@
+global.spriteState = 0;

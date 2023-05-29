@@ -23,8 +23,3 @@ else{
 		instance_destroy();
 	}
 }
-// Criando um meteoro a cada 3seg
-tempo_corrido += delta_time
-if tempo_corrido >= tempo_inicial{
-	instance_create_depth(x, y, 0, Obj_Meteors);
-}

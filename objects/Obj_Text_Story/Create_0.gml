@@ -1,7 +1,12 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+index = 0;
+vel_text = .5
 
-mytext[0] = "Astronauta: Com licença, Capitão. Relatório da missão concluído. O planeta X foi explorado e todas as informações foram coletadas."
+xbuffer = 10
+ybuffer = 10
+
+mytext[0] = "Astronauta: Com licença, Capitão. Relatório da missão concluído. O planeta Pythagora foi explorado e todas as informações foram coletadas."
 mytext[1] = "Capitão: Excelente trabalho, astronauta! Estou ansioso para receber os dados e enviá-los de volta à Terra. Mas, antes disso, temos um pequeno problema. Parece que estamos enfrentando uma chuva de asteroides no nosso caminho de volta."
 mytext[2] = "Astronauta: Entendido, Capitão. Esses asteroides podem colocar nossa missão em risco. O que podemos fazer?"
 mytext[3] = "Capitão: Temos uma solução. A nave está equipada com um sistema de defesa de laser. Porém, para ativá-lo, você precisará resolver alguns desafios matemáticos. Será uma prova da sua habilidade e precisão em meio ao perigo."
@@ -13,3 +18,8 @@ mytext[8] = "Astronauta: Farei o meu melhor, Capitão. Não vou decepcioná-lo. 
 mytext[9] = "Capitão: Confio em você, astronauta. Lembre-se de que a matemática é uma ferramenta poderosa, mesmo em situações tão extremas. Estamos juntos nessa. Boa sorte e que seus cálculos sejam precisos!"
 
 text = mytext;
+boxwidth = sprite_get_width(Spr_TextBox);
+stringheight = string_height(mytext);
+
+page = 0;
+charcount = 0;

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Spr_Textbox_2",
-  "bbox_bottom": 132,
-  "bbox_left": 1,
-  "bbox_right": 352,
+  "name": "Spr_Ethan_Astronaut",
+  "bbox_bottom": 511,
+  "bbox_left": 2,
+  "bbox_right": 802,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9c064005-0ffc-4229-9194-f97dd2e9b8cf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"333520e9-2ec4-4419-be2e-96cd7e7f6957",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 134,
+  "height": 512,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"77badce2-3a74-4517-9a51-0281497eff84","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"026517ec-17bd-46f2-bb40-756a8f895b7a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Spr_Textbox_2",
+    "name": "Spr_Ethan_Astronaut",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9c064005-0ffc-4229-9194-f97dd2e9b8cf","path":"sprites/Spr_Textbox_2/Spr_Textbox_2.yy",},},},"Disabled":false,"id":"9c2760a9-c766-43d5-b076-4d59059b7f58","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"333520e9-2ec4-4419-be2e-96cd7e7f6957","path":"sprites/Spr_Ethan_Astronaut/Spr_Ethan_Astronaut.yy",},},},"Disabled":false,"id":"45cd2ee1-5056-44d8-a34e-5b4132862334","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 356,
+  "width": 803,
 }
