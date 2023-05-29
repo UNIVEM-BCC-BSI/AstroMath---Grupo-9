@@ -4,7 +4,7 @@
 /// Objeto Aumentar
 
 // Defina a velocidade de aumento
-speed = 0.003;
+speed = 0.005;
 
 // Defina o tamanho máximo do objeto
 tamanhoMaximo = 3.5;

@@ -12,6 +12,7 @@
     {"name":"inst_65CF16F5","path":"rooms/Tela_Action/Tela_Action.yy",},
     {"name":"inst_2923968B","path":"rooms/Tela_Action/Tela_Action.yy",},
     {"name":"inst_C57DA10","path":"rooms/Tela_Action/Tela_Action.yy",},
+    {"name":"inst_3C74754C","path":"rooms/Tela_Action/Tela_Action.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,6 +23,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65CF16F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Meteors","path":"objects/Obj_Meteors/Obj_Meteors.yy",},"properties":[],"rotation":0.0,"scaleX":0.8,"scaleY":0.8,"x":928.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2923968B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Cockpit","path":"objects/Obj_Cockpit/Obj_Cockpit.yy",},"properties":[],"rotation":0.0,"scaleX":0.98350513,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C57DA10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Collision","path":"objects/Obj_Collision/Obj_Collision.yy",},"properties":[],"rotation":0.0,"scaleX":1.1374815,"scaleY":1.0,"x":64.0,"y":512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C74754C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Spawn_Meteors","path":"objects/Obj_Spawn_Meteors/Obj_Spawn_Meteors.yy",},"properties":[],"rotation":2.338917,"scaleX":3.0,"scaleY":3.0,"x":736.0,"y":128.00003,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Comandos_Tela_Action","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A6F42CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Action_Comandos","path":"objects/Obj_Action_Comandos/Obj_Action_Comandos.yy",},"properties":[],"rotation":-2.351671,"scaleX":3.0,"scaleY":3.0,"x":96.0,"y":160.0,},
