@@ -1,10 +1,11 @@
 
+
+// Verifique se a tecla Espaço foi pressionada
 if keyboard_check_pressed(vk_space) {
-    if global.spriteState == 0 {
-        sprite_index = Spr_Ethan_Astronaut;
-        global.spriteState = 1;
-    } else {
+    // Verifique qual personagem está falando atualmente
+    if sprite_index == Spr_Ethan_Astronaut {
         sprite_index = Spr_Chef_Astronaut;
-        global.spriteState = 0;
+    } else if sprite_index == Spr_Chef_Astronaut {
+        sprite_index = Spr_Ethan_Astronaut;
     }
 }

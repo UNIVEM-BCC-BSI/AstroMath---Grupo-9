@@ -1,5 +1,3 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
 
 if (index < string_length(mytext[0])){
 	index += vel_text;
