@@ -34,6 +34,7 @@
     {"id":{"name":"Obj_Text_Story","path":"objects/Obj_Text_Story/Obj_Text_Story.yy",},},
     {"id":{"name":"Obj_Spawn_Meteors","path":"objects/Obj_Spawn_Meteors/Obj_Spawn_Meteors.yy",},},
     {"id":{"name":"Tela_Action","path":"rooms/Tela_Action/Tela_Action.yy",},},
+    {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
     {"id":{"name":"Obj_Cockpit","path":"objects/Obj_Cockpit/Obj_Cockpit.yy",},},
     {"id":{"name":"Spr_Bg_Cockpit","path":"sprites/Spr_Bg_Cockpit/Spr_Bg_Cockpit.yy",},},
     {"id":{"name":"Spr_TextBox","path":"sprites/Spr_TextBox/Spr_TextBox.yy",},},

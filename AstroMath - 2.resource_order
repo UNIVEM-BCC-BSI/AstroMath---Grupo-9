@@ -16,6 +16,7 @@
     {"name":"Obj_Text_Story","order":9,"path":"objects/Obj_Text_Story/Obj_Text_Story.yy",},
     {"name":"Obj_Spawn_Meteors","order":2,"path":"objects/Obj_Spawn_Meteors/Obj_Spawn_Meteors.yy",},
     {"name":"Tela_Action","order":2,"path":"rooms/Tela_Action/Tela_Action.yy",},
+    {"name":"Obj_Player","order":19,"path":"objects/Obj_Player/Obj_Player.yy",},
     {"name":"Obj_Cockpit","order":14,"path":"objects/Obj_Cockpit/Obj_Cockpit.yy",},
     {"name":"Spr_Bg_Cockpit","order":1,"path":"sprites/Spr_Bg_Cockpit/Spr_Bg_Cockpit.yy",},
     {"name":"Spr_TextBox","order":10,"path":"sprites/Spr_TextBox/Spr_TextBox.yy",},
