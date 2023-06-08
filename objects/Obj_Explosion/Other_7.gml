@@ -1,3 +1,1 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-instance_destroy();
+instance_destroy(); // Destruir o objeto de explosão após a animação ser reproduzida

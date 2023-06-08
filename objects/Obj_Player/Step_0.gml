@@ -7,12 +7,12 @@ if (mouse_check_button_pressed(mb_left)) {
     var mouseY = mouse_y;
 
     // Verifica se o clique ocorreu dentro da área de uma das opções
-    for (var i = 0; i < array_length_1d(respostas); i++) {
-        var opcaoX = x;
-        var opcaoY = y + i * 30 + 30; // Ajuste o espaçamento vertical conforme necessário
+    for (var i = 0; i < array_length(Obj_Calculo.respostas); i++) {
+        var opcaoX = Obj_Calculo.x;
+        var opcaoY = Obj_Calculo.y + i * 60 + 60; // Ajuste o espaçamento vertical conforme necessário
 
         // Verifica se o clique ocorreu dentro da área da opção
-        if (point_in_rectangle(mouseX, mouseY, opcaoX, opcaoY, opcaoX + 100, opcaoY + 20)) {
+        if (point_in_rectangle(mouseX, mouseY, opcaoX, opcaoY + 5, opcaoX + 200, opcaoY + 55)) {
             opcaoSelecionada = i;
             break;
         }
@@ -20,19 +20,16 @@ if (mouse_check_button_pressed(mb_left)) {
 }
 
 // Verifica se uma opção foi selecionada
+// 1024x1056
+// 1888x1056
 if (opcaoSelecionada != -1) {
     // Verifica se a opção selecionada é a resposta correta
-    if (respostas[opcaoSelecionada] == resultado) {
-        // Resposta correta, faça o que for necessário
-        show_message("Resposta correta!");
-        // Disparar o laser ou fazer outras ações aqui
-
-        // Limpa a pergunta e respostas
+    if (Obj_Calculo.respostas[opcaoSelecionada] == Obj_Calculo.resultado) {
         pergunta = "";
-        array_clear(respostas);
+		instance_create_layer(1024,1056,"Tiro", Obj_Tiro);
+		instance_create_layer(1888,1056,"Tiro", Obj_Tiro);
 
-        // Gera uma nova pergunta e respostas
-        // ... Código para gerar uma nova pergunta ...
+		Obj_Calculo.reset_array()
 
     } else {
         // Resposta incorreta, faça o que for necessário

@@ -1,42 +1,53 @@
-var operador = "+";
-var numero1 = irandom_range(1, 10);
-var numero2 = irandom_range(1, 10);
-var resultado;
+resultado = 0;
+randomize() 
+function gerar_resultado(){
 
-switch (operador) {
-    case "+":
-        resultado = numero1 + numero2;
-        pergunta = string(numero1) + " + " + string(numero2) + " = ?";
-        break;
-    case "-":
-        resultado = numero1 - numero2;
-        pergunta = string(numero1) + " - " + string(numero2) + " = ?";
-        break;
-    case "*":
-        resultado = numero1 * numero2;
-        pergunta = string(numero1) + " * " + string(numero2) + " = ?";
-        break;
-    case "/":
-        resultado = numero1 / numero2;
-        pergunta = string(numero1) + " / " + string(numero2) + " = ?";
-        break;
+	var operador = "+";
+	var numero1 = irandom_range(1, 10);
+	var numero2 = irandom_range(1, 10);
+
+
+	switch (operador) {
+	    case "+":
+	        resultado = numero1 + numero2;
+	        pergunta = string(numero1) + " + " + string(numero2) + " = ?";
+	        break;
+	    case "-":
+	        resultado = numero1 - numero2;
+	        pergunta = string(numero1) + " - " + string(numero2) + " = ?";
+	        break;
+	    case "*":
+	        resultado = numero1 * numero2;
+	        pergunta = string(numero1) + " * " + string(numero2) + " = ?";
+	        break;
+	    case "/":
+	        resultado = numero1 / numero2;
+	        pergunta = string(numero1) + " / " + string(numero2) + " = ?";
+	        break;
+	}
+	
+	// Verificando respostas iguais
+	var index = irandom_range(0,2);
+	
+	for(var i = 0; i < 3; i++){
+		if (i == index){
+			respostas[i] = resultado;
+		}else{
+			
+			var resposta_Errada = irandom_range(1,20);
+			var confirmar = true;
+			
+			for (var j = 0; j < i; j++){
+				if(respostas[j] == resposta_Errada){
+					confirmar = false;
+				}
+			}
+			respostas[i] = (confirmar) ? resposta_Errada : irandom_range(1,20); // Operador ternário ( If e Else em uma linha)
+		}
+	}
 }
 
-respostas = array_create(3);
-var respostaErrada1 = irandom_range(1, 20); // Valor aleatório errado
-var respostaErrada2 = irandom_range(1, 20); // Valor aleatório errado
-
-// Verifica se as respostas erradas são iguais ao resultado correto
-while (respostaErrada1 == resultado) {
-    respostaErrada1 = irandom_range(1, 20);
+function reset_array(){
+	gerar_resultado()
 }
-
-while (respostaErrada2 == resultado || respostaErrada2 == respostaErrada1) {
-    respostaErrada2 = irandom_range(1, 20);
-}
-
-respostas[0] = respostaErrada1;
-respostas[1] = respostaErrada2;
-respostas[2] = resultado;
-
-array_shuffle(respostas);
+gerar_resultado()

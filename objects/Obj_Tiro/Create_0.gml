@@ -1,0 +1,1 @@
+alvo = Obj_Meteors;

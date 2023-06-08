@@ -1,7 +1,3 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-/// Objeto Aumentar
 
 // Defina a velocidade de aumento
 speed = 0.005;
