@@ -6,7 +6,7 @@ xbuffer = 10
 ybuffer = 10
 
 mytext[0] = "Ethan: Com licença, Capitão. Relatório da missão concluído. O planeta Pythagora foi explorado e todas as informações foram coletadas."
-mytext[1] = "Capitão: Excelente trabalho, astronauta! Estou ansioso para receber os dados e enviá-los de volta à Terra. Mas, antes disso, temos um pequeno problema. Parece que estamos enfrentando uma chuva de asteroides no nosso caminho de volta."
+mytext[1] = "Capitão: Excelente trabalho, astronauta! Estou ansioso para receber os dados e enviá-los de volta à Terra. Mas, antes disso, temos um problema. Parece que estamos enfrentando uma chuva de asteroides no nosso caminho de volta."
 mytext[2] = "Ethan: Entendido, Capitão. Esses asteroides podem colocar nossa missão em risco. O que podemos fazer?"
 mytext[3] = "Capitão: Temos uma solução. A nave está equipada com um sistema de defesa de laser. Porém, para ativá-lo, você precisará resolver alguns desafios matemáticos. Será uma prova da sua habilidade e precisão em meio ao perigo."
 mytext[4] = "Ethan: Entendido, Capitão. Estou pronto para enfrentar esses desafios matemáticos. O que devo fazer?"

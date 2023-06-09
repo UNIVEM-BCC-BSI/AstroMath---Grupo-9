@@ -8,11 +8,11 @@ if (mouse_check_button_pressed(mb_left)) {
 
     // Verifica se o clique ocorreu dentro da área de uma das opções
     for (var i = 0; i < array_length(Obj_Calculo.respostas); i++) {
-        var opcaoX = Obj_Calculo.x;
+        var opcaoX = Obj_Calculo.x - 50;
         var opcaoY = Obj_Calculo.y + i * 60 + 60; // Ajuste o espaçamento vertical conforme necessário
 
         // Verifica se o clique ocorreu dentro da área da opção
-        if (point_in_rectangle(mouseX, mouseY, opcaoX, opcaoY + 5, opcaoX + 200, opcaoY + 55)) {
+        if (point_in_rectangle(mouseX, mouseY,opcaoX, opcaoY + 15, opcaoX + 80, opcaoY + 70)) {
             opcaoSelecionada = i;
             break;
         }
