@@ -1,5 +1,4 @@
-draw_set_valign(-1);
-draw_set_halign(-1);
+
 draw_set_font(Font_Text_Story);
 
 // Desenhando o text box

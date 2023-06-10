@@ -51,3 +51,4 @@ for(var i=0;i<op_max;i++){
 draw_set_font(-1)
 draw_set_color(-1)
 draw_set_valign(-1)
+draw_set_halign(-1)

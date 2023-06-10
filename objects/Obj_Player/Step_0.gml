@@ -26,8 +26,8 @@ if (opcaoSelecionada != -1) {
     // Verifica se a opção selecionada é a resposta correta
     if (Obj_Calculo.respostas[opcaoSelecionada] == Obj_Calculo.resultado) {
         pergunta = "";
-		instance_create_layer(1024,1056,"Tiro", Obj_Tiro);
-		instance_create_layer(1888,1056,"Tiro", Obj_Tiro);
+		instance_create_layer(953,589,"Tiro", Obj_Tiro);
+
 
 		Obj_Calculo.reset_array()
 

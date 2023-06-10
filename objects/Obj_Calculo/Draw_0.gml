@@ -1,3 +1,4 @@
+draw_set_alpha(2)
 
 var azul_claro = make_color_rgb(63, 205, 255);
 var azul_35 = make_color_rgb(0, 131, 179);
@@ -8,7 +9,7 @@ var verde_25 = make_color_rgb(0, 128, 0);
 draw_set_font(Font_Operation);
 draw_set_halign(fa_center);
 draw_set_color(amarelo_45);
-draw_set_alpha(.7);
+
 
 draw_text(x, y, pergunta);
 
